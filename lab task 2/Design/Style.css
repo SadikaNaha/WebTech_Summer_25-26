@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: wheat;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px;
+    align-items: baseline;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+form{
+    display: flex;
+}
+fieldset{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+
+
+table{
+    width: auto;
+}
+tr{
+    margin-bottom: 10px;
+}
+td{
+    padding: 8px;
+}
+label{
+    margin-bottom: 10px;
+}
+input[type="text"],
+
+input[type="password"],
+select, 
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px; 
+}
+
+input[type="submit"]{
+    background-color: red;
+    color:white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: black;
+}
+
+
+.Header h1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0%;
+    
+}
